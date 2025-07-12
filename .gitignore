@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+local_settings.py
+
+# Media / static files (optional if using collectstatic)
+media/
+staticfiles/
+
+# VSCode or IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using Tailwind with npm)
+node_modules/
+package-lock.json
+
+# Git
+*.orig
