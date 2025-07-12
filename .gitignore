@@ -26,6 +26,25 @@ local_settings.py
 media/
 staticfiles/
 
+# Node modules (if using Tailwind with npm)
+node_modules/
+package-lock.json
+
+# Git
+*.orig
+
+# Tailwind-related (django-tailwind)
+**/node_modules/     # all node_modules folders
+**/package-lock.json
+**/tailwind.config.js
+**/postcss.config.js
+**/static_src/
+
+
+# Compiled Tailwind CSS (this is the important part)
+# Allow compiled CSS so it can be deployed
+!theme/static/**/*.css
+
 # VSCode or IDE configs
 .vscode/
 .idea/
@@ -33,10 +52,3 @@ staticfiles/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Node modules (if using Tailwind with npm)
-node_modules/
-package-lock.json
-
-# Git
-*.orig
