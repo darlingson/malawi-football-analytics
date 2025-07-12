@@ -70,6 +70,6 @@ Expose the analytics in your frontend (template or API).
 
 ## Docs
 - [ ] Add README instructions for local setup
-- [ ] Push initial version to GitHub
-- [ ] Add license (Apache 2.0)
+- [x] Push initial version to GitHub
+- [x] Add license (Apache 2.0)
 - [ ] Write basic user guide or walkthrough in Markdown
